@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>My Profile</title> 
+    <style>       body {         margin: 0;         padding: 0;         font-family: Arial, sans-serif; 
+      } 
+ 
+      .container {         display: flex;         flex-wrap: wrap;         justify-content: center;         align-items: stretch;         max-width: 1200px; 
+
+        margin: 0 auto;         padding: 20px; 
+      } 
+ 
+      .col {         flex-basis: 33.33%;         padding: 20px; 
+        box-sizing: border-box; 
+      } 
+ 
+      .col-1 {         order: 1; 
+      } 
+ 
+      .col-2 {         order: 2; 
+      } 
+ 
+      .col-3 {         order: 3; 
+      } 
+ 
+      .profile-pic {         max-width: 100%;         height: auto; 
+      }        h1 { 
+        margin-top: 0; 
+      } 
+    </style> 
+  </head> 
+  <body> 
+    <div class="container"> 
+      <div class="col col-1"> 
+        <img src="/WhatsApp Image 2023-03-24 at 08.45.13.jpg" alt="Profile picture" class="profile-pic" style="height: 300px;" width="300px"/> 
+      </div> 
+      <div class="col col-2"> 
+        <h1>Ashmit Sinha</h1> 
+        <p>Age: 25</p> 
+        <p>Location: Punjab</p> 
+        <p>Occupation: Web Developer</p> 
+      </div> 
+      <div class="col col-3"> 
+        <h2>Friends</h2> 
+        <ul> 
+          <li>Nitish</li> 
+          <li>Rohit</li> 
+          <li>Sohan</li> 
+        </ul> 
+      </div> 
+    </div> 
+    <script src="js.js"></script> 
+  </body> 
+</html>
